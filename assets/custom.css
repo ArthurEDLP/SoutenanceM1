@@ -1,0 +1,37 @@
+/* custom.css */
+.bouton-hover-shadow {
+    transition: box-shadow 0.3s ease;
+}
+
+.bouton-hover-shadow:hover {
+    background-color: #bb6100;  /* vert Bootstrap */
+    color: white;
+    box-shadow: 0 6px 12px rgba(252, 252, 252, 0.873);
+}
+
+.bouton-hover-shadow:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.bouton-glow:hover {
+    box-shadow: 0 0 8px #28a745, 0 0 16px #28a745;
+}
+
+.bouton-format {
+    background-color: rgb(255, 183, 178);
+    color: black;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+.bouton-format:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bouton-format.active {
+    background-color: rgb(230, 150, 145); /* Couleur plus foncée */
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.4); /* effet bouton enfoncé */
+    color: white;
+}
